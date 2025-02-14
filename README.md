@@ -45,8 +45,15 @@ python main_zero_tags_solid.py
 ```
 
 ## Notebooks
-Los notebooks en la carpeta
+Los notebooks en la carpeta notebook proporcionan análisis exploratorio de datos (EDA) y ajuste de hiperparámetros:
+- `forecasting_eda.ipynb:` Análisis exploratorio de datos para forecasting.
+- `tuning.ipynb:` Ajuste de hiperparámetros para los modelos de forecasting.
 
 ## Resultados
 
-Los resultados de las predicciones y visualizaciones se guardan en la carpeta
+Los resultados de las predicciones y visualizaciones se guardan en la carpeta results:
+- `forecasting_plot_errors.png`: Comparación de errores (MAE y RMSE) entre modelos.
+- `forecasting_plot_predictions.png`: Predicciones de los modelos vs. ventas históricas.
+- `forecasting_results.csv:` Resultados de las predicciones de los modelos.
+- `tag_class_zero_shoot_results.csv`: Resultados de la clasificación de etiquetas.
+- `tag_classification_heatmap.png`: Heatmap de probabilidades de clasificación por categoría.
